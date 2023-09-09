@@ -68,11 +68,57 @@ body {
 
 .second img {
     height: 100px;
-    width: 100px;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: center;
 }
 
 .ill {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.third {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.third p {
+    padding: 0;
+    margin: 0;
+
+}
+
+#anAuthor {
+    display: flex;
+    justify-content: end;
+}
+
+.fourth {
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth div {
+    background-color: aqua;
+    margin: 20px;
+}
+
+.fourth div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth div div p {
+    margin: 0;
+}
+
+.footer {
+    justify-content: center;
     align-items: center;
 }
