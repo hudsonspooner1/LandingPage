@@ -1,5 +1,7 @@
 * {
-    border: 1px red solid;
+    border:
+        /*1px red solid;
+    */
 }
 
 body {
@@ -22,15 +24,22 @@ body {
 
 .header {
     justify-content: space-around;
+    background-color: #1f2937;
 }
 
 .header p {
     margin: 10px;
     font-size: xx-small;
+    color: white;
 }
 
 .header h1 {
     font-size: smaller;
+    color: white;
+}
+
+.first {
+    background-color: #1f2937;
 }
 
 .first div {
@@ -43,36 +52,46 @@ body {
     margin: 0;
     padding: 5px;
     font-size: xx-small;
+    color: white;
 }
 
 .first h1 {
     margin: 0;
     padding: 0px;
     font-size: medium;
+    color: white;
+    font-size: x-large;
 }
 
 .first button {
     width: 50px;
     height: 20px;
     font-size: xx-small;
+    border: 0;
+    margin-top: 8px;
 }
 
 .first img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    border: 2px white solid;
+    border-radius: 10px;
 }
 
 .second {
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .second img {
-    height: 100px;
+    height: 80px;
+    border: 2px #cecfd3 solid;
+    border-radius: 10px;
 }
 
 #subtitle {
     display: flex;
     justify-content: center;
+    font-size: x-small;
 }
 
 .ill {
@@ -81,17 +100,23 @@ body {
     align-items: center;
     padding: 10px;
     text-align: center;
+    font-size: x-small;
 }
 
 .third {
     padding: 20px;
     flex-direction: column;
+    background-color: #E5E7Eb;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .third p {
-    padding: 0;
     margin: 0;
-
+    padding: 0;
+    margin-top: 10px;
 }
 
 #anAuthor {
@@ -105,20 +130,41 @@ body {
 }
 
 .fourth div {
-    background-color: aqua;
+    background-color: #3882F6;
     margin: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fourth div div {
     display: flex;
     flex-direction: column;
+    align-items: baseline;
 }
 
 .fourth div div p {
     margin: 0;
 }
 
+.fourth button {
+    border: 2px white solid;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 4px;
 }
